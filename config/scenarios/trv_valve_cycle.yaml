@@ -1,0 +1,10 @@
+# PID 阀门循环场景参数。
+# 需要确认的阀门实际动作次数。试跑改为 4，正式测试可改为 80。
+moves: 2
+# 每个页面状态或开度变化最多等待秒数。
+timeout_seconds: 13
+# 读取 Android UI 的轮询间隔秒数。
+poll_interval_seconds: 1
+# 关阀模式设温必须低于室温，开阀模式设温必须高于室温。
+close_mode: "节能"
+open_mode: "舒适"

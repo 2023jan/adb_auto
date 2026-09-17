@@ -1,0 +1,14 @@
+# 实验室环境：同一套脚本换手机或输出位置时只改这里。
+app:
+  package: "com.tuya.smartlifeiot"
+  launch_activity: "com.smart.ThingSplashActivity"
+  # 首页首屏没有目标设备时，最多向上滑动的次数。
+  device_search_max_swipes: 4
+
+adb:
+  # 连接多台手机时填写 adb devices 显示的序列号；单台手机保持 null。
+  serial: null
+
+output:
+  # 相对路径基于本文件，即项目根目录的 trv-runs。
+  runs_dir: "../trv-runs"

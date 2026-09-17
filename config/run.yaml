@@ -1,0 +1,4 @@
+# 本次运行选择哪个设备实例和业务场景。
+run:
+  scenario: "trv_valve_cycle"
+  device: "705z_1"
